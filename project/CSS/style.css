@@ -1,0 +1,731 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.boxupper{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+}
+                          /*==================================Header Starts========================================*/
+.boxmainheader{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    margin-top: 1px;
+    display: flex;
+}
+.upperheader{
+    float: right;
+    margin-top: 7px;
+}
+.upperheader a{
+    margin-right: 40px; 
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.upperheader a:hover{
+    text-decoration: underline;
+    color: red;
+}
+.leftheader img{
+    width: 120px;
+    height: 60px;
+    margin-top: 0.2px;
+    margin-left: 15px;
+}
+.middleheader{
+    width: 60%;
+    justify-content: space-between;
+    display: flex;
+    line-height: 60px;
+    margin-left: 20px;
+}
+.middleheader a{
+    color: white;
+    text-decoration: none;
+}
+.middleheader a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.rightheader{
+    margin-left: 30px;
+    margin-top: 11px;
+    width: 15%;
+    /* outline: none; */
+}
+.rightheader input{
+    outline: none;
+}
+.rightheader input{
+    height: 30px;
+    width: 180px;
+    margin-left: 30px;
+}
+.rightmag img{
+    width: 30px;
+    margin-top: 12px; 
+    height: 34px;
+    margin-right: 12px;
+}
+.rightcart img{ 
+    width: 41px;
+    margin-top: 12px;
+}
+                       /*=================================Header Ends=====================================*/
+
+                       /*==================================Body Starts=================================*/
+.box{
+    display: flex;
+}
+.box1{
+    width: 48%;
+    height: 60px;
+    background-color: rgb(217, 217, 217);
+    margin-left: 30px;
+    margin-top: 40px;
+    margin-right: 12px;
+}
+.box1 p{
+    margin-top: 3px;
+    font-size: 45px;
+    margin-left: 150px;
+}
+.box2{
+    width: 48%;
+    height: 60px;
+    background-color: rgb(217, 217, 217);
+    margin-right: 30px;
+    margin-top: 40px;
+    margin-left: 12px;
+}
+.box2 p{
+    margin-top:2px;
+    margin-left: 135px;
+    font-size: 45px;
+}
+.mainbox{
+    display: flex;
+}
+.box3{
+    width: 50%;
+    height: 350px;
+    background-color:rgb(217, 217, 217);
+    margin-top: 40px;
+    text-align: center;
+}
+.box3 h1{
+    font-size: 50px;
+    margin-top: 40px;
+}
+.box3 p{
+    font-size: 40px;
+}
+.tag{
+    margin: auto;
+    width: 200px;
+    height: 40px;
+    background-color: black;
+}
+.tag a{
+    line-height: 40px;
+    color: white;
+    text-decoration: none;
+}
+.tag a:hover{
+    text-decoration: underline;
+    color: red;
+}
+.box4{
+    width: 50%;
+    height: 350px;
+    margin-top: 40px;
+}
+.box4 img{
+    height: 350px;
+    width:100%;
+}
+.arrivals{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.newarrivalscontainer{
+    width: 97%;
+    display: flex;
+    justify-content: space-between;
+    height: 350px;
+    margin: auto;
+}
+.boxa{
+    width: 23%;
+    height: 100%;
+}
+.boxa img{
+    width: 100%;
+    height: 80%;
+}
+.namea{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+.namea h1{
+    font-size: 25px;
+}
+.nameaanker{
+    background-color:#808080cf;
+    text-align: center;
+    line-height: 40px;
+}
+.nameaanker a{
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+.nameaanker a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.airforce h1{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.airforcecontainer{
+    display: flex;
+    width: 97%;
+    height: 350px;
+    justify-content: space-between;
+    margin: auto;
+}
+.box5{
+    width: 23%;
+    height: 100%;
+}
+.box5 img{
+    width: 100%;
+    height: 80%;
+}
+.box5 .name1{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+.box5 .name1 h1{
+    font-size: 25px;
+    color: black;
+}
+.name1anker{
+    background-color: #808080cf; 
+    text-align: center;
+    line-height: 40px;
+}
+.name1anker a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+.name1anker a:hover{
+    text-decoration: underline; 
+    color: black;
+}
+.box6{
+    width: 23%;
+    height: 100%;
+}
+.box6 .name2{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+.box6 img{
+    width: 100%;
+    height: 80%;
+}
+.box6 .name2 h1{
+    color: black;
+    font-size: 25px;
+}
+.name2anker{
+    background-color: #808080cf;
+    text-align: center;
+    line-height: 40px;
+}
+.name2anker a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+.name2anker a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.box7{
+    width: 23%;
+    height: 100%;
+}
+.box7 img{
+    width: 100%;
+    height: 80%;
+}
+.box7 .name3{
+    display: flex;
+    height: 50px;
+    justify-content: space-between; 
+}
+.box7 .name3 h1{
+    color: black;
+    font-size: 25px;
+}
+.name3anker{
+    text-align: center;
+    background-color: #808080cf;
+    line-height: 40px;
+}
+.name3anker a{
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+}
+.name3anker a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.box8{
+    width: 23%;
+    height: 100%;
+}
+.box8 img{
+    width: 100%;
+    height: 80%;
+}
+.box8 .name4{
+    display: flex;
+    justify-content: space-between;
+    height: 50px; 
+}
+.box8 .name4 h1{
+    color: black;
+    font-size: 25px;
+}
+.name4anker{
+    text-align: center;
+    background-color: #808080cf;
+    line-height: 40px; 
+}
+.name4anker a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+.name4anker a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.yeezy h1{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.yeezycontainer {
+    display: flex;
+    width: 97%;
+    height: 350px;
+    justify-content: space-between;
+    margin: auto;
+}
+.box9{
+    width: 23%;
+    height: 100%;
+}
+.box9 img{
+    width: 100%;
+    height: 80%;
+}
+.box9 .name5{
+    display: flex;
+    justify-content: space-between; 
+    height: 50px;  
+}
+.box9 .name5 h1{
+    color: black;
+    font-size: 25px;
+}
+.nameanker5{
+    text-align: center;
+    background-color: #808080cf;
+    line-height: 40px;
+}
+.nameanker5 a{
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+.nameanker5 a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.box10{
+    width: 23%;
+    height: 100%;
+}
+.box10 img{
+    width: 100%;
+    height: 80%;
+}
+.name6{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+.box10 .name6 h1{
+    color: black;
+    font-size: 25px;
+}
+.nameanker6{
+    text-align: center;
+    background-color: #808080cf;
+    line-height: 40px;
+}
+.nameanker6 a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+.nameanker6 a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.box11{
+    width: 23%;
+    height: 100%;
+}
+.box11 img{
+    width: 100%;
+    height: 80%;
+}
+.name7{
+    display: flex;
+    height: 50px; 
+    justify-content: space-between;
+}
+.name7 h1{
+    color: black;
+    font-size: 25px;
+}
+.nameanker7{
+    text-align: center;
+    line-height: 40px;
+    background-color: #808080cf;
+}
+.nameanker7 a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+.nameanker7 a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.box12{
+    width: 23%;
+    height: 100%;
+}
+.box12 img{
+    width: 100%;
+    height: 80%;
+}
+.name8{
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+}
+.name8 h1{
+    color: black;
+    font-size: 25px;
+}
+.nameanker8{
+    text-align: center;
+    background-color: #808080cf;
+    line-height: 40px;
+}
+.nameanker8 a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+.nameanker8 a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.jordan{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.jordancontainer{
+    display: flex;
+    width: 97%;
+    height: 350px;
+    justify-content: space-between; 
+    margin: auto;
+}
+.box13{
+    width: 23%;
+    height: 100%;
+}
+.box13 img{
+    width: 100%;
+    height: 80%;
+}
+.name9{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+.name9 h1{
+    color: black;
+    font-size: 25px;
+}
+.nameanker9{
+    text-align: center;
+    background-color: #808080cf;
+    line-height: 40px;
+}
+.nameanker9 a{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
+.nameanker9 a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.box14{
+    width: 23%;
+    height: 100%;
+}
+.box14 img{
+    width: 100%;
+    height: 80%;
+}
+.name10{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+.name10 h1{
+    color: black;
+    font-size: 25px;
+}
+.nameanker10{
+    text-align: center;
+    background-color: #808080cf;
+    line-height: 40px;
+}
+.nameanker10 a{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
+.nameanker10 a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.box15{
+    width: 23%;
+    height: 350px;
+}
+.box15 img{
+    width: 100%;
+    height: 80%;
+}
+.name11{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+.name11 h1{
+    color: black;
+    font-size: 25px;
+}
+.nameanker11{
+    text-align: center;
+    background-color: #808080cf;
+    line-height: 40px;
+}
+.nameanker11 a{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
+.nameanker11 a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.box16{
+    width: 23%;
+    height: 100%;
+}
+.box16 img{
+    width: 100%;
+    height: 80%;
+}
+.name12{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+.name12 h1{
+    color: black;
+    font-size: 25px;
+}
+.nameanker12{
+    text-align: center;
+    background-color: #808080cf;
+    line-height: 40px;
+}
+.nameanker12 a{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
+.nameanker12 a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.lv{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.lvcontainer{
+    margin: auto;
+    display: flex;
+    height: 350px;
+    width: 97%;
+    justify-content: space-between;
+}
+.box17{
+    width: 23%;
+    height: 100%;
+}
+.box17 img{
+    width: 100%;
+    height: 80%;
+}
+.name13{
+    display: flex;
+    justify-content: space-between;
+    height: 50px; 
+}
+.name13 h1{
+    font-size: 25px;
+}
+.nameanker13{
+    text-align: center;
+    background-color: #808080cf;
+    line-height: 40px;
+}
+.nameanker13 a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+.nameanker13 a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.nike{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.nikecontainer{
+    display: flex;
+    justify-content: space-between;
+    width: 97%;
+    height: 350px;
+    margin: auto;
+}
+.box18{
+    width: 23%;
+    height: 100%;
+}
+.box18 img{
+    width: 100%;
+    height: 80%;
+}
+.name14{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+.name14 h1{
+    font-size: 25px;
+}
+.nameanker14{
+    text-align: center;
+    background-color: #808080cf;
+    line-height: 40px;
+}
+.nameanker14 a{
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+.nameanker14 a:hover{
+    color: black;
+    text-decoration: underline;
+}
+.adidas{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.adidascontainer{
+    width: 97%;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.box19{
+    width: 23%;
+    height: 100%;
+}
+.box19 img{
+    width: 100%;
+    height: 80%;
+}
+.name15{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+.name15 h1{
+    font-size: 25px;
+}
+.nameanker15{
+    text-align: center;
+    background-color: #808080cf;
+    line-height: 40px;
+}
+.nameanker15 a{
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+.nameanker15 a:hover{
+    text-decoration: underline;
+    color: black;
+}
+  /*==================================Body Ends===================================*/
+  /*==================================Footer Starts==================================*/
+
+
+
+
+
+
+
+
+
+
+  /*==================================Footer Ends=====================================*/
