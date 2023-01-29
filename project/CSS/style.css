@@ -75,6 +75,232 @@ body{
     margin-top: 12px;
 }
                        /*=================================Header Ends=====================================*/
+                       /*================================Inside Heading Starts===============================*/
+body{
+    margin: 0;
+    padding: 0;
+}
+.insideairforce{
+    margin-left: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.insideairforcecontainer{
+    display: flex;
+    width: 97%;
+    height: 350px;
+    justify-content: space-between;
+    margin: auto;
+}
+.insidebox5{
+    width: 23%;
+    height: 100%;
+}
+.insidebox5 img{
+    width: 100%;
+    height: 80%;
+}
+.insidename1{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+.insdiename1 p{
+    font-size: 25px;
+    margin-top: 10px;
+}
+.insidename1anker{
+    background-color: #808080cf; 
+    text-align: center;
+    line-height: 40px;
+}
+.insidename1anker a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+.insidename1anker a:hover{
+    text-decoration: underline; 
+    color: black;
+}
+/*.insidebox6{
+    width: 23%;
+    height: 100%;
+}
+.insidebox6 img{
+    width: 100%;
+    height: 80%;
+}
+.insidename2{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+.insdiename2 p{
+    font-size: 25px;
+    margin-top: 10px;
+}
+.insidename2anker{
+    background-color: #808080cf; 
+    text-align: center;
+    line-height: 40px;
+}
+.insidename2anker a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+.insidename2anker a:hover{
+    text-decoration: underline; 
+    color: black;
+}
+.insidebox7{
+    width: 23%;
+    height: 100%;
+}
+.insidebox7 img{
+    width: 100%;
+    height: 80%;
+}
+.insidename3{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+.insdiename3 p{
+    font-size: 25px;
+    margin-top: 10px;
+}
+.insidename3anker{
+    background-color: #808080cf; 
+    text-align: center;
+    line-height: 40px;
+}
+.insidename3anker a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+.insidename3anker a:hover{
+    text-decoration: underline; 
+    color: black;
+}
+.insidebox8{
+    width: 23%;
+    height: 100%;
+}
+.insidebox8 img{
+    width: 100%;
+    height: 80%;
+}
+.insidename4{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+.insidename4 p{
+    font-size: 25px;
+    margin-top: 10px;
+}
+.insidename4anker{
+    background-color: #808080cf; 
+    text-align: center;
+    line-height: 40px;
+}
+.insidename4anker a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+.insidename4anker a:hover{
+    text-decoration: underline; 
+    color: black;
+}*/
+.adaimage{
+    height: 400px;
+    margin-top: 60px;
+    background-color: aqua;
+    display: flex;
+    border-radius: 30px;
+}
+.adafirstimage img{
+    margin-top: 10px;
+    margin-left: 20px;
+    height: 380px;
+}  
+.aboutairforce{
+    margin-top: 120px;
+    margin-left: 100px;
+}
+.aboutairforce p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+}
+.aboutairforceanker {
+    width: 170px;
+    height: 40px;
+    background-color: black;
+    margin-top: 30px;
+    margin-left: 130px;
+    font-size: 25px;
+    text-align: center;
+}
+.aboutairforceanker a{
+    text-decoration: none;
+    line-height: 40px;
+    color: white;
+}
+.aboutairforceanker a:hover{
+    color: red;
+}
+.anothercontainer{
+    margin-top: 100px;
+    display: flex;
+    width: 97%;
+    height: 350px;
+    justify-content: space-between;
+    margin: auto;
+}
+.insidebox6{
+    width: 23%;
+    height: 100%;
+}
+.insidebox6 img{
+    width: 100%;
+    height: 80%;
+}
+.insidename2{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+.insdiename2 p{
+    font-size: 25px;
+    margin-top: 10px;
+}
+.insidename2anker{
+    background-color: #808080cf; 
+    text-align: center;
+    line-height: 40px;
+}
+.insidename2anker a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+.insidename2anker a:hover{
+    text-decoration: underline; 
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+                       /*================================Outside Heading Starts================================*/
 
                        /*==================================Body Starts=================================*/
 .box{
@@ -872,11 +1098,11 @@ body{
 .socialfoot a{
     font-size: 40px;
     text-decoration: none;
-    color: white;
+    color: gray;
     padding-left: 15px;
 }
 .socialfoot a:hover{
-    color: orange;
+    color: white;
 }
 .payment img{
     width: 40px;
