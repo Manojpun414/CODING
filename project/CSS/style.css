@@ -122,99 +122,6 @@ body{
     text-decoration: underline; 
     color: black;
 }
-/*.insidebox6{
-    width: 23%;
-    height: 100%;
-}
-.insidebox6 img{
-    width: 100%;
-    height: 80%;
-}
-.insidename2{
-    display: flex;
-    justify-content: space-between;
-    height: 50px;
-}
-.insdiename2 p{
-    font-size: 25px;
-    margin-top: 10px;
-}
-.insidename2anker{
-    background-color: #808080cf; 
-    text-align: center;
-    line-height: 40px;
-}
-.insidename2anker a{
-    color: white;
-    text-decoration: none;
-    font-size: 30px;
-}
-.insidename2anker a:hover{
-    text-decoration: underline; 
-    color: black;
-}
-.insidebox7{
-    width: 23%;
-    height: 100%;
-}
-.insidebox7 img{
-    width: 100%;
-    height: 80%;
-}
-.insidename3{
-    display: flex;
-    justify-content: space-between;
-    height: 50px;
-}
-.insdiename3 p{
-    font-size: 25px;
-    margin-top: 10px;
-}
-.insidename3anker{
-    background-color: #808080cf; 
-    text-align: center;
-    line-height: 40px;
-}
-.insidename3anker a{
-    color: white;
-    text-decoration: none;
-    font-size: 30px;
-}
-.insidename3anker a:hover{
-    text-decoration: underline; 
-    color: black;
-}
-.insidebox8{
-    width: 23%;
-    height: 100%;
-}
-.insidebox8 img{
-    width: 100%;
-    height: 80%;
-}
-.insidename4{
-    display: flex;
-    justify-content: space-between;
-    height: 50px;
-}
-.insidename4 p{
-    font-size: 25px;
-    margin-top: 10px;
-}
-.insidename4anker{
-    background-color: #808080cf; 
-    text-align: center;
-    line-height: 40px;
-}
-.insidename4anker a{
-    color: white;
-    text-decoration: none;
-    font-size: 30px;
-}
-.insidename4anker a:hover{
-    text-decoration: underline; 
-    color: black;
-}*/
 .adaimage{
     height: 400px;
     margin-top: 60px;
@@ -291,6 +198,602 @@ body{
     text-decoration: underline; 
     color: black;
 }
+body{
+    margin: 0;
+    padding: 0;
+}
+.insidejordan{
+    margin-left: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.insidejordancontainer{
+    display: flex;
+    width: 97%;
+    height: 350px;
+    justify-content: space-between;
+    margin: auto;
+}
+.insideboxj{
+    width: 23%;
+    height: 100%;
+}
+.insideboxj img{
+    width: 100%;
+    height: 80%;
+}
+.insidenamej{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+.insdienamej p{
+    font-size: 25px;
+    margin-top: 10px;
+}
+.insidenamejanker{
+    background-color: #808080cf; 
+    text-align: center;
+    line-height: 40px;
+}
+.insidenamejanker a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+.insidenamejanker a:hover{
+    text-decoration: underline; 
+    color: black;
+}
+.adjimage{
+    height: 400px;
+    margin-top: 60px;
+    background-color: aqua;
+    display: flex;
+    border-radius: 30px;
+}
+.adjfirstimage img{
+    margin-top: 10px;
+    margin-left: 20px;
+    height: 380px;
+}  
+.aboutjordan{
+    margin-top: 120px;
+    margin-left: 100px;
+}
+.aboutjordan p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+}
+.aboutjordananker {
+    width: 170px;
+    height: 40px;
+    background-color: black;
+    margin-top: 30px;
+    margin-left: 130px;
+    font-size: 25px;
+    text-align: center;
+}
+.aboutjordananker a{
+    text-decoration: none;
+    line-height: 40px;
+    color: white;
+}
+.aboutjordananker a:hover{
+    color: red;
+}
+.anotherjcontainer{
+    margin-top: 100px;
+    display: flex;
+    width: 97%;
+    height: 350px;
+    justify-content: space-between;
+    margin: auto;
+}
+.insidebox6j{
+    width: 23%;
+    height: 100%;
+}
+.insidebox6j img{
+    width: 100%;
+    height: 80%;
+}
+.insidename2j{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+.insdiename2j p{
+    font-size: 25px;
+    margin-top: 10px;
+}
+.insidename2janker{
+    background-color: #808080cf; 
+    text-align: center;
+    line-height: 40px;
+}
+.insidename2janker a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+.insidename2janker a:hover{
+    text-decoration: underline; 
+    color: black;
+}
+.insideadidas{
+    margin-left: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.insideadidascontainer{
+    display: flex;
+    width: 97%;
+    height: 350px;
+    justify-content: space-between;
+    margin: auto;
+}
+.insideboxa{
+    width: 23%;
+    height: 100%;
+}
+.insideboxa img{
+    width: 100%;
+    height: 80%;
+}
+.insidenamea{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+.insdienamea p{
+    font-size: 25px;
+    margin-top: 10px;
+}
+.insidenameaanker{
+    background-color: #808080cf; 
+    text-align: center;
+    line-height: 40px;
+}
+.insidenameaanker a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+.insidenameaanker a:hover{
+    text-decoration: underline; 
+    color: black;
+}
+.adadimage{
+    height: 400px;
+    margin-top: 60px;
+    background-color: aqua;
+    display: flex;
+    border-radius: 30px;
+}
+.adadfirstimage img{
+    margin-top: 10px;
+    margin-left: 20px;
+    height: 380px;
+}  
+.aboutadidas{
+    margin-top: 120px;
+    margin-left: 100px;
+}
+.aboutadidas p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+}
+.aboutadidasanker {
+    width: 170px;
+    height: 40px;
+    background-color: black;
+    margin-top: 30px;
+    margin-left: 130px;
+    font-size: 25px;
+    text-align: center;
+}
+.aboutadidasanker a{
+    text-decoration: none;
+    line-height: 40px;
+    color: white;
+}
+.aboutadidasanker a:hover{
+    color: red;
+}
+.anotheracontainer{
+    margin-top: 100px;
+    display: flex;
+    width: 97%;
+    height: 350px;
+    justify-content: space-between;
+    margin: auto;
+}
+.insidebox6a{
+    width: 23%;
+    height: 100%;
+}
+.insidebox6a img{
+    width: 100%;
+    height: 80%;
+}
+.insidename2a{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+.insdiename2a p{
+    font-size: 25px;
+    margin-top: 10px;
+}
+.insidename2aanker{
+    background-color: #808080cf; 
+    text-align: center;
+    line-height: 40px;
+}
+.insidename2aanker a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+.insidename2aanker a:hover{
+    text-decoration: underline; 
+    color: black;
+}
+.insidelv{
+    margin-left: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.insidelvcontainer{
+    display: flex;
+    width: 97%;
+    height: 350px;
+    justify-content: space-between;
+    margin: auto;
+}
+.insideboxl{
+    width: 23%;
+    height: 100%;
+}
+.insideboxl img{
+    width: 100%;
+    height: 80%;
+}
+.insidenamel{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+.insdienamel p{
+    font-size: 25px;
+    margin-top: 10px;
+}
+.insidenamelanker{
+    background-color: #808080cf; 
+    text-align: center;
+    line-height: 40px;
+}
+.insidenamelanker a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+.insidenamelanker a:hover{
+    text-decoration: underline; 
+    color: black;
+}
+.adlimage{
+    height: 400px;
+    margin-top: 60px;
+    background-color: aqua;
+    display: flex;
+    border-radius: 30px;
+}
+.adlfirstimage img{
+    margin-top: 10px;
+    margin-left: 20px;
+    height: 380px;
+}  
+.aboutlv{
+    margin-top: 120px;
+    margin-left: 100px;
+}
+.aboutlv p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+}
+.aboutlvanker {
+    width: 200px;
+    height: 40px;
+    background-color: black;
+    margin-top: 30px;
+    margin-left: 130px;
+    font-size: 25px;
+    text-align: center;
+}
+.aboutlvanker a{
+    text-decoration: none;
+    line-height: 40px;
+    color: white;
+}
+.aboutlvanker a:hover{
+    color: red;
+}
+.anotherlcontainer{
+    margin-top: 100px;
+    display: flex;
+    width: 97%;
+    height: 350px;
+    justify-content: space-between;
+    margin: auto;
+}
+.insidebox6l{
+    width: 23%;
+    height: 100%;
+}
+.insidebox6l img{
+    width: 100%;
+    height: 80%;
+}
+.insidename2l{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+.insdiename2l p{
+    font-size: 25px;
+    margin-top: 10px;
+}
+.insidename2lanker{
+    background-color: #808080cf; 
+    text-align: center;
+    line-height: 40px;
+}
+.insidename2lanker a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+.insidename2lanker a:hover{
+    text-decoration: underline; 
+    color: black;
+}
+.insidenike{
+    margin-left: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.insidenikecontainer{
+    display: flex;
+    width: 97%;
+    height: 350px;
+    justify-content: space-between;
+    margin: auto;
+}
+.insideboxn{
+    width: 23%;
+    height: 100%;
+}
+.insideboxn img{
+    width: 100%;
+    height: 80%;
+}
+.insidenamen{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+.insdienamen p{
+    font-size: 25px;
+    margin-top: 10px;
+}
+.insidenamenanker{
+    background-color: #808080cf; 
+    text-align: center;
+    line-height: 40px;
+}
+.insidenamenanker a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+.insidenamenanker a:hover{
+    text-decoration: underline; 
+    color: black;
+}
+.adnimage{
+    height: 400px;
+    margin-top: 60px;
+    background-color: aqua;
+    display: flex;
+    border-radius: 30px;
+}
+.adnfirstimage img{
+    margin-top: 10px;
+    margin-left: 20px;
+    height: 380px;
+}  
+.aboutnike{
+    margin-top: 120px;
+    margin-left: 100px;
+}
+.aboutnike p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+}
+.aboutnikeanker {
+    width: 170px;
+    height: 40px;
+    background-color: black;
+    margin-top: 30px;
+    margin-left: 80px;
+    font-size: 25px;
+    text-align: center;
+}
+.aboutnikeanker a{
+    text-decoration: none;
+    line-height: 40px;
+    color: white;
+}
+.aboutnikeanker a:hover{
+    color: red;
+}
+.anotherncontainer{
+    margin-top: 100px;
+    display: flex;
+    width: 97%;
+    height: 350px;
+    justify-content: space-between;
+    margin: auto;
+}
+.insidebox6n{
+    width: 23%;
+    height: 100%;
+}
+.insidebox6n img{
+    width: 100%;
+    height: 80%;
+}
+.insidename2n{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+.insdiename2n p{
+    font-size: 25px;
+    margin-top: 10px;
+}
+.insidename2nanker{
+    background-color: #808080cf; 
+    text-align: center;
+    line-height: 40px;
+}
+.insidename2nanker a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+.insidename2nanker a:hover{
+    text-decoration: underline; 
+    color: black;
+}
+.insideyeezy{
+    margin-left: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.insideyeezycontainer{
+    display: flex;
+    width: 97%;
+    height: 350px;
+    justify-content: space-between;
+    margin: auto;
+}
+.insideboxy{
+    width: 23%;
+    height: 100%;
+}
+.insideboxy img{
+    width: 100%;
+    height: 80%;
+}
+.insidenamey{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+.insdienamey p{
+    font-size: 25px;
+    margin-top: 10px;
+}
+.insidenameyanker{
+    background-color: #808080cf; 
+    text-align: center;
+    line-height: 40px;
+}
+.insidenameyanker a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+.insidenameyanker a:hover{
+    text-decoration: underline; 
+    color: black;
+}
+.adyimage{
+    height: 400px;
+    margin-top: 60px;
+    background-color: aqua;
+    display: flex;
+    border-radius: 30px;
+}
+.adyfirstimage img{
+    margin-top: 10px;
+    margin-left: 20px;
+    height: 380px;
+}  
+.aboutyeezy{
+    margin-top: 120px;
+    margin-left: 100px;
+}
+.aboutyeezy p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+}
+.aboutyeezyanker {
+    width: 170px;
+    height: 40px;
+    background-color: black;
+    margin-top: 30px;
+    margin-left: 130px;
+    font-size: 25px;
+    text-align: center;
+}
+.aboutyeezyanker a{
+    text-decoration: none;
+    line-height: 40px;
+    color: white;
+}
+.aboutyeezyanker a:hover{
+    color: red;
+}
+.anotherycontainer{
+    margin-top: 100px;
+    display: flex;
+    width: 97%;
+    height: 350px;
+    justify-content: space-between;
+    margin: auto;
+}
+.insidebox6y{
+    width: 23%;
+    height: 100%;
+}
+.insidebox6y img{
+    width: 100%;
+    height: 80%;
+}
+.insidename2y{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+.insdiename2y p{
+    font-size: 25px;
+    margin-top: 10px;
+}
+.insidename2yanker{
+    background-color: #808080cf; 
+    text-align: center;
+    line-height: 40px;
+}
+.insidename2yanker a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+.insidename2yanker a:hover{
+    text-decoration: underline; 
+    color: black;
+}
+
+
 
 
 
